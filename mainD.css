@@ -1,0 +1,68 @@
+@charset "EUC-KR";
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+header{
+	width: 820px;
+	height: 200px;
+	background-color: 000000;
+	position: relative;
+}
+
+#top_menu{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 330px;
+	color: black;
+	
+}
+
+#top_menu a{color: black;}
+
+nav{margin-top: 10px; margin-bottom: 20px; margin-left: 150px;}
+
+nav ul{
+	list-style: none;
+	
+	position: absolute;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	text-align: center;
+	font-size: 16px;
+}
+ 
+ 
+nav ul li{
+	display: inline;
+	letter-spacing: .3em;
+	margin-left: 2em;
+}
+
+nav li a{
+	color: black;
+	text-decoration: none;
+	line-height: 3em;
+}
+
+
+
+content{position: relative;
+
+}
+
+#content li{
+	display: inline;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+footer{
+	width: 800px;
+	height: 90px;
+	margin-top: 0px;
+	text-align: center;
+	
+}
+
+#page{width: 820px; margin: 0px auto;}
